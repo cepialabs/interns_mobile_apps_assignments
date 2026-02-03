@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Advanced React Patterns 2024",
+        "rating": 4.9,
+        "students": "2.4k",
+        "thumbnail": "google.png"
+    },
+    {
+        "id": 2,
+        "title": "Flutter Animations Mastery",
+        "rating": 4.8,
+        "students": "1.9k",
+        "thumbnail": "google.png"
+    },
+    {
+        "id": 3,
+        "title": "UI Design Systems",
+        "rating": 4.7,
+        "students": "3.1k",
+        "thumbnail": "google.png"
+    },
+    {
+        "id": 4,
+        "title": "Next.js for Professionals",
+        "rating": 4.9,
+        "students": "2.7k",
+        "thumbnail": "google.png"
+    }
+]

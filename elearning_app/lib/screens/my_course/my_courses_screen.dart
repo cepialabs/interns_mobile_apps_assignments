@@ -6,9 +6,7 @@ import '../../services/explore_service.dart';
 import 'widgets/my_courses_header.dart';
 import 'widgets/continue_learning_section.dart';
 import 'widgets/category.dart';
-import 'widgets/filtered_courses_section.dart';
 import 'widgets/recommended_section.dart';
-// import 'widgets/certification_section.dart';
 
 class MyCoursesScreen extends StatefulWidget {
   const MyCoursesScreen({super.key});
@@ -24,7 +22,7 @@ class _MyCoursesScreenState extends State<MyCoursesScreen> {
   late Future<List<Course>> _myCoursesFuture;
   late Future<List<Course>> _recommendedFuture;
 
-  String _selectedFilter = "My Courses";
+  // String _selectedFilter = "My Courses";
 
   final List<String> _filters = [
     "My Courses",
@@ -59,19 +57,17 @@ class _MyCoursesScreenState extends State<MyCoursesScreen> {
 
               Category(
                 filters: _filters,
-                selected: _selectedFilter,
-                onSelect: (value) {
-                  setState(() {
-                    _selectedFilter = value;
-                  });
+                selected: null, // no local selection anymore
+                onSelect: (value) async {
+                  final courses = await _myCoursesFuture;
+
+                  context.push(
+                    '/my-courses/list',
+                    extra: {'filter': value, 'courses': courses},
+                  );
                 },
               ),
-              FilteredCoursesSection(
-                coursesFuture: _myCoursesFuture,
-                applyFilter: _applyFilter,
-              ),
 
-              // CertificationSection(coursesFuture: _myCoursesFuture),
               RecommendedSection(
                 coursesFuture: _recommendedFuture,
                 onCourseTap: (course) {
@@ -83,18 +79,5 @@ class _MyCoursesScreenState extends State<MyCoursesScreen> {
         ),
       ),
     );
-  }
-
-  List<Course> _applyFilter(List<Course> courses) {
-    switch (_selectedFilter) {
-      case "In Progress":
-        return courses.where((c) => c.progress > 0 && c.progress < 1).toList();
-      case "Completed":
-        return courses.where((c) => c.progress == 1).toList();
-      case "Certifications":
-        return courses.where((c) => c.isCertified == true).toList();
-      default:
-        return courses;
-    }
   }
 }

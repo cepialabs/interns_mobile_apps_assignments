@@ -1,53 +1,53 @@
 {
   "courseCatalog": {
     "categories": [
-      { "id": 1, "name": "Design", "icon": "palette", "color": "blue" },
-      { "id": 2, "name": "Tech", "icon": "code", "color": "orange" },
-      { "id": 3, "name": "Business", "icon": "briefcase", "color": "green" },
-      { "id": 4, "name": "Marketing", "icon": "megaphone", "color": "purple" }
+      { "id": 1, "name": "Computer Basics", "icon": "desktop", "color": "blue" },
+      { "id": 2, "name": "Office Skills", "icon": "file-text", "color": "orange" },
+      { "id": 3, "name": "Professional Courses", "icon": "briefcase", "color": "green" },
+      { "id": 4, "name": "Typing", "icon": "keyboard", "color": "purple" }
     ],
 
     "allCourses": [
       {
         "id": 1,
-        "title": "UX Design Masterclass",
-        "categoryIds": [1],
-        "image": "https://res.cloudinary.com/dvkwwzd6v/image/upload/v1769966271/ux_e6tyl2.png",
+        "title": "PGDCA – Post Graduate Diploma in Computer Applications",
+        "categoryIds": [1, 3],
+        "image": "https://media.istockphoto.com/id/1152638912/photo/laptop-with-graduation-cap.webp?a=1&b=1&s=612x612&w=0&k=20&c=UJZkA-I8GM_yQisTfeloeoGAvnt5f8OaWlr-JAe1R_I=",
         "rating": 4.9,
-        "students": "12k",
-        "price": 89.99,
+        "students": "15k",
+        "price": 199.99,
         "isBestSeller": true,
         "isCertified": false
       },
       {
         "id": 2,
-        "title": "Fullstack Web Development",
+        "title": "Advanced Microsoft Excel Course",
         "categoryIds": [2],
-        "image": "https://res.cloudinary.com/dvkwwzd6v/image/upload/v1769966270/fullstack_gy1qvj.png",
+        "image": "https://res.cloudinary.com/dvkwwzd6v/image/upload/v1769966271/ux_e6tyl2.png",
         "rating": 4.8,
-        "students": "8.4k",
-        "price": 124.99,
-        "isCertified": true
+        "students": "10.2k",
+        "price": 59.99,
+        "isCertified": false
       },
       {
         "id": 3,
-        "title": "Python for Data Science",
-        "categoryIds": [2, 3],
-        "author": "Dr. Angela Yu",
-        "image": "https://res.cloudinary.com/dvkwwzd6v/image/upload/v1769966270/python_blift7.png",
-        "rating": 4.8,
-        "price": 44.99,
+        "title": "Microsoft Word & Documentation Mastery",
+        "categoryIds": [2],
+        "author": "Expert Computer Institute",
+        "image": "https://images.unsplash.com/photo-1716436329478-9c954c6bd611?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0aW5nJTIwcGxhdGZvcm18ZW58MHx8MHx8fDA%3D",
+        "rating": 4.7,
+        "price": 39.99,
         "isCertified": false
       },
       {
         "id": 4,
-        "title": "Crypto Trading Essentials",
-        "categoryIds": [3],
-        "author": "Michael Scott",
+        "title": "Professional English & Hindi Typing Course",
+        "categoryIds": [4],
+        "author": "Typing Academy",
         "image": "https://res.cloudinary.com/dvkwwzd6v/image/upload/v1769966270/crypto_rgzyxj.png",
-        "rating": 4.7,
+        "rating": 4.6,
         "price": 0,
-        "isCertified": false
+        "isCertified": true
       }
     ],
 
@@ -58,11 +58,11 @@
   "student": {
     "id": 101,
     "name": "Ankit Shukla",
-    "purchasedCourseIds": [1,2,3,4],
+    "purchasedCourseIds": [1, 2, 3, 4],
     "courseProgress": {
-      "1": 0.45,
-      "2": 1.0,
-      "3": 0.7,
+      "1": 0.35,
+      "2": 0.8,
+      "3": 0.6,
       "4": 1.0
     }
   }

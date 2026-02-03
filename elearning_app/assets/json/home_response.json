@@ -1,0 +1,100 @@
+{
+    "success": true,
+    "message": "Home data fetched successfully",
+    "data": {
+        "continue_learning": {
+            "id": 1,
+            "title": "UI/UX Foundations: Master Class",
+            "instructor": "Sarah Jenkins",
+            "progress": 65,
+            "last_lesson": "Design Systems",
+            "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+        },
+        "trending_courses": [
+            {
+                "id": 10,
+                "title": "Advanced React Patterns 2024",
+                "rating": 4.9,
+                "students": "2.4k",
+                "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+            },
+            {
+                "id": 11,
+                "title": "Flutter Animations Mastery",
+                "rating": 4.8,
+                "students": "1.9k",
+                "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+            },
+            {
+                "id": 12,
+                "title": "Clean Architecture in Mobile Apps",
+                "rating": 4.7,
+                "students": "3.1k",
+                "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+            },
+            {
+                "id": 13,
+                "title": "Next.js for Professionals",
+                "rating": 4.9,
+                "students": "2.7k",
+                "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+            }
+        ],
+        "top_design_courses": [
+            {
+                "id": 20,
+                "title": "Typography 101",
+                "price": "$19.99",
+                "thumbnail": "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+            },
+            {
+                "id": 21,
+                "title": "Color Theory Mastery",
+                "price": "$14.99",
+                "thumbnail": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+            },
+            {
+                "id": 22,
+                "title": "Design Thinking Essentials",
+                "price": "$24.99",
+                "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e"
+            },
+            {
+                "id": 23,
+                "title": "Advanced Figma Techniques",
+                "price": "$29.99",
+                "thumbnail": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+            }
+        ],
+        "development_courses": [
+            {
+                "id": 30,
+                "title": "Flutter Development Bootcamp",
+                "subtitle": "20 Hours • 60 Lessons",
+                "isBestSeller": true,
+                "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+            },
+            {
+                "id": 31,
+                "title": "Python for Data Science",
+                "subtitle": "12 Hours • 45 Lessons",
+                "isBestSeller": true,
+                "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+            },
+            {
+                "id": 32,
+                "title": "Node.js Complete Guide",
+                "subtitle": "18 Hours • 52 Lessons",
+                "isBestSeller": false,
+                "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+            },
+            {
+                "id": 33,
+                "title": "Kotlin for Android Developers",
+                "subtitle": "15 Hours • 40 Lessons",
+                "isBestSeller": false,
+                "thumbnail": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f"
+            }
+        ]
+    }
+}

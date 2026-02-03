@@ -1,0 +1,22 @@
+[
+    {
+        "id": 101,
+        "title": "Typography 101",
+        "price": "$19.99"
+    },
+    {
+        "id": 102,
+        "title": "Color Theory Mastery",
+        "price": "$14.99"
+    },
+    {
+        "id": 103,
+        "title": "Design Thinking Essentials",
+        "price": "$24.99"
+    },
+    {
+        "id": 104,
+        "title": "Figma Advanced Techniques",
+        "price": "$29.99"
+    }
+]

@@ -1,0 +1,98 @@
+{
+  "courseCatalog": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Design",
+        "icon": "palette",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "name": "Tech",
+        "icon": "code",
+        "color": "orange"
+      },
+      {
+        "id": 3,
+        "name": "Business",
+        "icon": "briefcase",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "name": "Marketing",
+        "icon": "megaphone",
+        "color": "purple"
+      }
+    ],
+    "allCourses": [
+      {
+        "id": 1,
+        "title": "UX Design Masterclass",
+        "categoryIds": [
+          1
+        ],
+        "image": "assets/images/ux.png",
+        "rating": 4.9,
+        "students": "12k",
+        "price": 89.99,
+        "isBestSeller": true
+      },
+      {
+        "id": 2,
+        "title": "Fullstack Web Development",
+        "categoryIds": [
+          2
+        ],
+        "image": "assets/images/fullstack.png",
+        "rating": 4.8,
+        "students": "8.4k",
+        "price": 124.99
+      },
+      {
+        "id": 3,
+        "title": "Python for Data Science",
+        "categoryIds": [
+          2,
+          3
+        ],
+        "author": "Dr. Angela Yu",
+        "image": "assets/images/python.png",
+        "rating": 4.8,
+        "price": 44.99
+      },
+      {
+        "id": 4,
+        "title": "Crypto Trading Essentials",
+        "categoryIds": [
+          3
+        ],
+        "author": "Michael Scott",
+        "image": "assets/images/crypto.png",
+        "rating": 4.7,
+        "price": 0
+      }
+    ],
+    "featuredCourseIds": [
+      1,
+      2
+    ],
+    "popularCourseIds": [
+      3,
+      4
+    ]
+  },
+  "student": {
+    "id": 101,
+    "name": "Ankit Shukla",
+    "purchasedCourseIds": [
+      1,
+      3
+    ],
+    "courseProgress": {
+      "1": 0.45,
+      "3": 0.7
+    }
+  }
+}

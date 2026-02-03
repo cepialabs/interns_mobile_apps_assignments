@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Category extends StatelessWidget {
   final List<String> filters;
-  final String selected;
+  final String? selected;
   final ValueChanged<String> onSelect;
 
   const Category({

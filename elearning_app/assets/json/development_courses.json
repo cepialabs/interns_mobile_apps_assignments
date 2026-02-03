@@ -1,0 +1,23 @@
+[
+    {
+        "id": 201,
+        "title": "Python for Data Science",
+        "subtitle": "12 Hours • 45 Lessons",
+        "isBestSeller": true,
+        "thumbnail": "google.png"
+    },
+    {
+        "id": 202,
+        "title": "Flutter Development Bootcamp",
+        "subtitle": "20 Hours • 60 Lessons",
+        "isBestSeller": false,
+        "thumbnail": "google.png"
+    },
+    {
+        "id": 203,
+        "title": "Node.js Complete Guide",
+        "subtitle": "18 Hours • 52 Lessons",
+        "isBestSeller": true,
+        "thumbnail": "google.png"
+    }
+]
